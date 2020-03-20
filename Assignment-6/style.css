@@ -1,0 +1,211 @@
+body{
+    background: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.navbar{
+    top: 80px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    height: 40px;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: large;
+}
+
+.nav-item:last-child{
+    margin-right: 100px;
+}
+
+.nav-link:hover{
+    color: gray;
+    font-size: 20px;
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+
+.carousel-caption{
+    bottom: 100px;
+    font: normal 60px Kristen ITC;
+
+}
+
+.navbar-brand{
+    color: white;
+    padding-left: 50px;
+    font-size: 35px;
+}
+
+.navbar-nav:last-child{
+    padding-right: 50px ;
+}
+
+#about{
+    padding: 50px 50px 130px 50px;
+    text-align: justify;
+    background: white;
+}
+
+#about img{
+    float: left;
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    padding: 50px;
+}
+
+#about p{
+    padding: 25px;
+    padding-top: 50px;
+    font-style: italic;
+    font-size: larger;
+}
+
+.description{
+    font: normal 13px Kristen ITC;
+    margin: 0px;
+}
+
+#special, .social, #footer{
+    background: rgba(10, 10, 10, 0.97);
+    margin: 0px auto 70px auto;
+    padding: 150px 150px 30px 150px;
+    font: normal 28px Monotype Corsiva;
+    color: white;
+}
+
+.list{
+    margin: 100px;
+    font: normal 24px Serif;
+    color: white;
+}
+
+.list td{
+    width: 50%;
+    padding: 20px 50px;
+    margin: 5px;
+}
+
+.list p{
+    padding: 30px 10px 15px 10px;
+    font: normal 18px Serif;
+    color: rgb(200, 200, 200);
+}
+
+.list td a{
+    font: normal 28px Monotype Corsiva;
+    color: white;
+}
+
+#reviews{
+    height: 250px;
+}
+
+#reviews p{
+    text-align: center;
+    font: normal 26px serif;
+    color: black;
+    padding: 40px 140px;
+}
+
+#gallery{
+    background: white;
+    height: 150px;
+    text-align: center;
+    font: bold 60px Monotype Corsiva;
+    color: black;
+}
+
+#gallery p{
+    padding: 45px;
+}
+
+.galleryI{
+    border: 2px solid white;
+}
+
+.galleryI:nth-child(1){
+    width: 30%;
+    float: left;
+}
+
+.galleryI:nth-child(2){
+    width: 70%;
+    float: right;
+}
+
+.galleryI:nth-child(3){
+    width: 30%;
+    float: left;
+}
+
+.galleryI:nth-child(4){
+    width: 70%;
+    height: 538px;
+    float: right;
+}
+
+.galleryI:nth-child(5){
+    width: 30%;
+    float: left;
+}
+
+.galleryI:nth-child(6){
+    width: 40%;
+    float: right;
+}
+
+.galleryI:nth-child(7){
+    width: 60%;
+    float: left;
+}
+
+#contact{
+    background: rgba(255, 255, 255, 0.85);
+    margin: 0px;
+    padding: 70px 150px 30px 250px;
+    font: normal 32px Serif;
+    color: black;
+}
+
+.con{
+    margin: 30px 0px;
+    font: normal 28px Monotype Corsiva;
+}
+
+.con td{
+    width: 50%;
+    padding: 20px 50px;
+}
+
+.social{
+    margin-bottom: 0;
+    padding: 80px;
+}
+
+.social a{
+    text-decoration: underline;
+    color: white;
+    padding: 0px 20px;
+}
+
+#footer{
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font: normal 15px Arial;
+}
