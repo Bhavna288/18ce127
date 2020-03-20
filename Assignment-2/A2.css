@@ -1,0 +1,99 @@
+body{
+    background-image: url('https://lh5.googleusercontent.com/proxy/TIVYzfvmGlbbHmGWHVGlWMF9Vf4n0l5_D2IEi_nNP9m75_BnF_uoeBsDIe-Nmy5R2WAS_Lw-9dN5WoxD4JyaNx51FWaUrgCheocI');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 30px 80px;
+    font: normal 20px Calibri;
+    text-align: justify; 
+}
+
+#header, h3{
+    font-family: Jokerman;
+    padding-bottom: 0;
+    color: black;
+}
+
+#header{
+    background-color: black;
+    padding: 20px;
+    padding-left: 80px;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#header:hover, h3:hover{
+    text-decoration: underline;
+}
+
+p{
+    padding: 15px;
+}
+
+.carImg{
+    padding: 30px;
+    text-align: center;
+    opacity: 10;
+}
+
+.carImg img:hover{
+    padding: 30px;
+    text-align: center;
+    width: 800px;
+}
+
+.pricing{
+    margin: 40px auto;
+}
+
+.pricing td, th{
+    border: 1px solid white;
+    padding: 12px;
+    background-color: gray;
+    font: bold 23px Calibri;
+}
+
+.pricing td:nth-child(1){
+    font: italic 22px Verdana;
+    background-color: lightgrey;
+    width: 500px;
+}
+
+.pricing td:nth-child(2){
+    background-color: gainsboro;
+}
+
+.interior{
+    float: right;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.interior img{
+    width: 350px;
+    
+}
+
+.interior img:hover{
+    width: 300px;
+}
+
+.engine{
+    float: left;
+    padding: 25px;
+    padding-top: 0;
+}
+
+.engine img{
+    width: 400px;
+}
+
+.engine img:hover{
+    width: 360px;
+}
