@@ -335,7 +335,7 @@ $conn = mysqli_connect("localhost", "root", "", "workshop");
         </label></td>
             <td><table class="inside">
                 <tr><td><button type="submit" class="btn">Submit</button></td><td>
-        <a href="A5.php" class="btn">Cancel</a></td></tr></table>
+        <a href="index.php" class="btn">Cancel</a></td></tr></table>
         </tr>
         
         
